@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Acme.Project2501.Application.Kernel\Acme.Project2501.Application.Kernel.csproj" />
     <ProjectReference Include="..\Acme.Project2501.Application\Acme.Project2501.Application.csproj" />
+    <ProjectReference Include="..\Acme.Project2501.Domain.Kernel\Acme.Project2501.Domain.Kernel.csproj" />
     <ProjectReference Include="..\Acme.Project2501.Domain\Acme.Project2501.Domain.csproj" />
     <ProjectReference Include="..\Acme.Project2501.Infrastructure.Persistence\Acme.Project2501.Infrastructure.Persistence.csproj" />
     <ProjectReference Include="..\Acme.Project2501.Infrastructure\Acme.Project2501.Infrastructure.csproj" />

@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Acme.Project2501.Application.Kernel\Acme.Project2501.Application.Kernel.csproj" />
     <ProjectReference Include="..\..\src\Acme.Project2501.Application\Acme.Project2501.Application.csproj" />
   </ItemGroup>
 
