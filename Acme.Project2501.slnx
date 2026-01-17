@@ -3,6 +3,7 @@
   <Folder Name="/2, Application/" />
   <Folder Name="/3. Domain/">
     <Project Path="src/Acme.Project2501.Domain/Acme.Project2501.Domain.csproj" />
+    <Project Path="tests/Acme.Project2501.Domain.Tests/Acme.Project2501.Domain.Tests.csproj" Id="602d06da-b4e0-4ad5-b055-a3ea7d436d01" />
   </Folder>
   <Folder Name="/4. Infrastructure/" />
   <Folder Name="/5. Database/" />
