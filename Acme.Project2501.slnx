@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/1. Presentation/" />
+  <Folder Name="/1. Presentation/">
+    <Project Path="src/Acme.Project2501.Web/Acme.Project2501.Web.csproj" Id="2596ea88-55dd-4952-bbca-81d9f0228941" />
+  </Folder>
   <Folder Name="/2, Application/">
     <Project Path="src/Acme.Project2501.Application/Acme.Project2501.Application.csproj" Id="50029ba0-624b-47c5-8b91-f86e45833aee" />
     <Project Path="tests/Acme.Project2501.Application.Tests/Acme.Project2501.Application.Tests.csproj" Id="2485fcb1-a5e8-4f13-bfa2-e1d06a7dbc13" />
