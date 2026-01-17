@@ -1,8 +1,20 @@
 using Acme.Project2501.Web.Data;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+builder.Host.ConfigureContainer<ContainerBuilder>(container =>
+{
+    Acme.Project2501.Application.AutofacBuilder.Build(container);
+    Acme.Project2501.Domain.AutofacBuilder.Build(container);
+    Acme.Project2501.Infrastructure.AutofacBuilder.Build(container);
+    Acme.Project2501.Web.AutofacBuilder.Build(container);
+});
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
