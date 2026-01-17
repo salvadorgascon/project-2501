@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="src/Acme.Project2501.Domain/Acme.Project2501.Domain.csproj" />
+  <Folder Name="/1. Presentation/" />
+  <Folder Name="/2, Application/" />
+  <Folder Name="/3. Domain/">
+    <Project Path="src/Acme.Project2501.Domain/Acme.Project2501.Domain.csproj" />
+  </Folder>
+  <Folder Name="/4. Infrastructure/" />
+  <Folder Name="/5. Database/" />
+  <Folder Name="/6. Tools/" />
+  <Folder Name="/7. Documentation/" />
 </Solution>
