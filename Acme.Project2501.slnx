@@ -13,6 +13,8 @@
     <Project Path="src/Acme.Project2501.Infrastructure/Acme.Project2501.Infrastructure.csproj" Id="869f59aa-b3cf-4448-b1c6-1a7efce31fba" />
   </Folder>
   <Folder Name="/5. Database/" />
-  <Folder Name="/6. Tools/" />
+  <Folder Name="/6. Tools/">
+    <Project Path="tools/Acme.Project2501.Cli/Acme.Project2501.Cli.csproj" Id="078b5472-816f-4be8-8320-18acb46e9229" />
+  </Folder>
   <Folder Name="/7. Documentation/" />
 </Solution>
