@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Acme.Project2501.Application\Acme.Project2501.Application.csproj" />
+    <ProjectReference Include="..\..\src\Acme.Project2501.Domain\Acme.Project2501.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Acme.Project2501.Infrastructure.Persistence\Acme.Project2501.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\..\src\Acme.Project2501.Infrastructure\Acme.Project2501.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
