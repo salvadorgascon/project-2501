@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/1. Presentation/" />
-  <Folder Name="/2, Application/" />
+  <Folder Name="/2, Application/">
+    <Project Path="src/Acme.Project2501.Application/Acme.Project2501.Application.csproj" Id="50029ba0-624b-47c5-8b91-f86e45833aee" />
+    <Project Path="tests/Acme.Project2501.Application.Tests/Acme.Project2501.Application.Tests.csproj" Id="2485fcb1-a5e8-4f13-bfa2-e1d06a7dbc13" />
+  </Folder>
   <Folder Name="/3. Domain/">
     <Project Path="src/Acme.Project2501.Domain/Acme.Project2501.Domain.csproj" />
     <Project Path="tests/Acme.Project2501.Domain.Tests/Acme.Project2501.Domain.Tests.csproj" Id="602d06da-b4e0-4ad5-b055-a3ea7d436d01" />
