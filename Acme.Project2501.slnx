@@ -8,7 +8,10 @@
     <Project Path="src/Acme.Project2501.Domain/Acme.Project2501.Domain.csproj" />
     <Project Path="tests/Acme.Project2501.Domain.Tests/Acme.Project2501.Domain.Tests.csproj" Id="602d06da-b4e0-4ad5-b055-a3ea7d436d01" />
   </Folder>
-  <Folder Name="/4. Infrastructure/" />
+  <Folder Name="/4. Infrastructure/">
+    <Project Path="src/Acme.Project2501.Infrastructure.Persistence/Acme.Project2501.Infrastructure.Persistence.csproj" Id="b7848b2e-a68c-4bee-8ed9-41bcb137e07f" />
+    <Project Path="src/Acme.Project2501.Infrastructure/Acme.Project2501.Infrastructure.csproj" Id="869f59aa-b3cf-4448-b1c6-1a7efce31fba" />
+  </Folder>
   <Folder Name="/5. Database/" />
   <Folder Name="/6. Tools/" />
   <Folder Name="/7. Documentation/" />
